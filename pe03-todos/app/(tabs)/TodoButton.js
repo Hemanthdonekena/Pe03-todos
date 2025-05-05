@@ -1,12 +1,6 @@
 import React from 'react'
 import { Text, TouchableHighlight, StyleSheet } from 'react-native'
 
-/*
-    Create a button component called TodoButton to pass in to the todo
-      Takes onPress, complete, and name as props.
-    Checks whether complete is true, and applies a style called "complete."
-    Checks whether the name property equals “Delete” and, if so, applies a style called "delateButton."
-*/
 const TodoButton = ({ onPress, complete, name }) => (  
   <TouchableHighlight
     onPress={onPress}
