@@ -1,4 +1,3 @@
-// Listing 3.18 Creating TodoButton.js
 import React from 'react'
 import { Text, TouchableHighlight, StyleSheet } from 'react-native'
 
